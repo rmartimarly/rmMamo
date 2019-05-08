@@ -58,7 +58,7 @@ python src/modeling/run_model.py \
     --gpu-number $GPU_NUMBER
 
 echo 'Stage 4b: Run Classifier (Image+Heatmaps)'
-python3 src/modeling/run_model.py \
+python src/modeling/run_model.py \
     --model-path $IMAGEHEATMAPS_MODEL_PATH \
     --data-path $EXAM_LIST_PATH \
     --image-path $CROPPED_IMAGE_PATH \
